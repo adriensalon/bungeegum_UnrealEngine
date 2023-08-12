@@ -1,0 +1,24 @@
+PROJECT_NAME 			= bungeegum
+GENERATE_LATEX 			= NO
+HTML_OUTPUT 			= build/doc/doxygen
+ENABLE_PREPROCESSING   	= YES
+EXTRACT_ALL 			= YES
+RECURSIVE 				= YES
+FILE_PATTERNS        	= *.hpp
+INCLUDE_PATH         	= bungeegum/include/bungeegum/
+INCLUDE_GRAPH			= YES
+HAVE_DOT               = YES
+UML_LOOK               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+HIDE_UNDOC_RELATIONS   = NO
+INPUT					= .
+INPUT					+= README.md
+EXCLUDE 				= external/
+EXCLUDE_SYMBOLS 		= detail impl 
+MARKDOWN_SUPPORT 		= YES
+USE_MDFILE_AS_MAINPAGE 	= README.md
+GENERATE_TREEVIEW      	= YES
+HTML_EXTRA_STYLESHEET  	= external/doxygen-awesome/doxygen-awesome.css
+QUIET = YES
+
